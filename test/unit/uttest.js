@@ -10,14 +10,13 @@ describe('Array', function() {
 
 describe('Equality', function() {
     it('should be equal to 10', function() {
-        var num = 110;
+        var num = 10;
         expect(num).to.be.eq(10);
     })});
     
 describe('Test1', function() {
 it('should be equal to 10', function() {
     var num = 10;
-   // var num = Math.floor((Math.random() * 10) + 1);
     expect(num).to.be.eq(10);
 })});
     
@@ -76,4 +75,3 @@ it('should be equal to 10', function() {
     var num = 10;
     expect(num).to.be.eq(10);
 })});
-       
